@@ -60,4 +60,11 @@
     <Folder Include="dbo\StoreProcedures" />
     <Folder Include="dbo\Tables" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Proveedor.sql" />
+    <Build Include="dbo\StoreProcedures\ProveedorObtener.sql" />
+    <Build Include="dbo\StoreProcedures\ProveedorInsertar.sql" />
+    <Build Include="dbo\StoreProcedures\ProveedorActualizar.sql" />
+    <Build Include="dbo\StoreProcedures\ProveedorEliminar.sql" />
+  </ItemGroup>
 </Project>
